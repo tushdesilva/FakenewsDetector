@@ -1,0 +1,6 @@
+step 1: first install the nodejs in your computer from https://www.nodejs.org
+step 2: extract the zip file and go into the main directory where index.js file is available.
+step 3: type npm install --save from the terminal in the root directory
+step 4: type npm start to start the nodejs app
+step 5: go in the browser on type http://localhost:5000 to view the application.
+

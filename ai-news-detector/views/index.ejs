@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake New Detector</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <h1 class="heading">Welcome to Fake News Detector</h1>
+    <p>Check the Reliability and authenticity of a news article and enquire the correctness of the news you get</p>
+    <form class="form__area" action="/check-news" method="POST">
+       <div class="form__item">
+        <label>Article</label>
+        <input name="article" type="text" placeholder="Type any article" />
+       </div>
+       
+
+       <div class="form__item">
+        <label>Website</label>
+        <input name="website" type="text" placeholder="Type any article" />
+       </div>
+
+       <div class="form__item">
+        <label>Keywords</label>
+        <textarea name="keywords" type="text" placeholder="Type Keywords"></textarea>
+       </div>
+
+       <button class="primaryBtn" type="submit">Check Reliability</button>
+
+    </form>
+</body>
+</html>
